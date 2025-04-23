@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="ttt.css" />
+    
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="container">
+            <h1 class="title">TIC-TAC-TOE</h1>
+            
+            <div class="grid-wrapper">
+            
+            <div class="grid">
+                <div class="row">
+                    <div onclick="handleClick(this)" id="0" class="col"></div>
+                    <div onclick="handleClick(this)" id="1" class="col"></div>
+                    <div onclick="handleClick(this)" id="2" class="col"></div>
+                </div>
+                <div class="row">
+                    <div onclick="handleClick(this)" id="3" class="col"></div>
+                    <div onclick="handleClick(this)" id="4" class="col"></div>
+                    <div onclick="handleClick(this)" id="5" class="col"></div>
+                </div>
+                <div class="row">
+                    <div onclick="handleClick(this)" id="6" class="col"></div>
+                    <div onclick="handleClick(this)" id="7" class="col"></div>
+                    <div onclick="handleClick(this)" id="8" class="col"></div>
+                </div>
+
+            </div>
+            <button class="restart-btn" onclick="restartGame()">Restart</button>
+            <h2 id="winner"></h2>
+            
+            </div>
+        
+
+            
+        </div>
+    </div>
+
+    
+    
+    
+    
+    <script src="ttt.js"></script>
+    
+</body>
+</html>
